@@ -1,0 +1,66 @@
+{
+  "Name": "Wall Street Price Board",
+  "Author": "Mike",
+  "Description": "Dynamic stock ticker with interactive symbol selection",
+  "Version": "1.0",
+  "File": "index.html",
+  "Interactive": true,
+  "Width": 1920,
+  "Height": 1080,
+  "properties": {
+    "tickers": {
+      "type": "string",
+      "default": "AAPL,MSFT,GOOGL,AMZN,NVDA,BRK-B,UNH,JPM,V,MA,XOM,LLY,JNJ,WMT,PG,COST,HD,CVX,ABBV,META",
+      "title": "Ticker Symbols",
+      "description": "Comma-separated list of stock tickers to display"
+    },
+    "sortcolumn": {
+        "type": "option",
+        "default": "none",
+        "title": "Sort by Column",
+        "options": {
+            "none": "No sorting",
+            "price": "Price",
+            "change": "Change",
+            "percent": "% Change",
+            "pct5d": "% 5d",
+            "pct30d": "% 30d",
+            "volume": "Volume"
+        }
+    },
+    "sortdirection": {
+        "type": "option",
+        "default": "desc",
+        "title": "Sort Direction",
+        "options": {
+            "asc": "Ascending",
+            "desc": "Descending"
+        }
+    },
+    "showribbon": {
+      "type": "bool",
+      "default": true,
+      "title": "Show Stats Ribbon"
+    },
+    "verticalalign": {
+      "type": "option",
+      "default": "top",
+      "title": "Vertical Alignment",
+      "description": "Position stock list vertically",
+      "options": {
+        "top": "Top",
+        "centered": "Centered",
+        "bottom": "Bottom"
+      }
+    },
+    "fontsize": {
+      "type": "slider",
+      "title": "Font Size",
+      "description": "Set the base font size in pixels",
+      "min": 10,
+      "max": 36,
+      "step": 1,
+      "default": 16
+    }
+  }
+}

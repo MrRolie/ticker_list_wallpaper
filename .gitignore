@@ -1,0 +1,16 @@
+# Backup files
+backup/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if any future npm packages are added)
+node_modules/
+package-lock.json

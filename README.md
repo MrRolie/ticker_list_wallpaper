@@ -6,15 +6,13 @@ A dynamic, interactive stock ticker wallpaper for Wallpaper Engine. Display live
 
 ![Wall Street Price Board Preview](previews/preview.png)
 
-**Video Demo**: [Watch Demo](previews/demo.mp4)
-
-*Screenshot and demo video showing the interactive stock ticker in action*
+*Screenshot of the board running its default list*
 
 ## Features
 
 - 📊 **Near-Live Stock Data** - Prices refreshed while the US market is open, for any ticker list you choose (the default list is 20 large US companies)
 - 🎨 **Interactive Customization** - Adjust fonts, alignment, colors, and ticker lists directly in Wallpaper Engine
-- 📈 **Advanced Sorting** - Sort by price, change, % change, 5-day or 30-day performance, or volume
+- 📈 **Advanced Sorting** - Sort by price, change, % change or volume
 - 📍 **Market Hours Detection** - Intelligent update scheduling based on NYSE hours (9:30 AM - 4:00 PM EST)
 - 🎯 **Responsive Layout** - Adapts to the display size, with customizable positioning
 

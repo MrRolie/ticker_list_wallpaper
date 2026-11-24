@@ -6,17 +6,17 @@ A dynamic, interactive stock ticker wallpaper for Wallpaper Engine. Display live
 
 ![Wall Street Price Board Preview](previews/preview.png)
 
-**Video Demo**: [Watch Demo](preview/demo.mp4)
+**Video Demo**: [Watch Demo](previews/demo.mp4)
 
 *Screenshot and demo video showing the interactive stock ticker in action*
 
 ## Features
 
-- 📊 **Live Stock Data** - Real-time price updates for S&P 500 stocks
+- 📊 **Near-Live Stock Data** - Prices refreshed while the US market is open, for any ticker list you choose (the default list is 20 large US companies)
 - 🎨 **Interactive Customization** - Adjust fonts, alignment, colors, and ticker lists directly in Wallpaper Engine
-- 📈 **Advanced Sorting** - SAdapts to any screen resolution 5-day/30-day performance, or volume
+- 📈 **Advanced Sorting** - Sort by price, change, % change, 5-day or 30-day performance, or volume
 - 📍 **Market Hours Detection** - Intelligent update scheduling based on NYSE hours (9:30 AM - 4:00 PM EST)
-- 🎯 **Responsive Layout** - Optimized for 1920x1080 displays with customizable positioning
+- 🎯 **Responsive Layout** - Adapts to the display size, with customizable positioning
 
 ## Installation
 
@@ -50,7 +50,7 @@ ticker_list_wallpaper/
 ├── README.md            # Documentation
 ├── LICENSE              # MIT License
 ├── .gitignore           # Git ignore rules
-├── preview/             # Screenshots & previews
+├── previews/            # Screenshots & previews
 │   ├── preview.png      # Main preview screenshot
 |   ├── preview_wide.png # Wide preview screenshot
 │   ├── demo.mp4         # Demo video
@@ -63,15 +63,15 @@ ticker_list_wallpaper/
 
 - **Resolution**: Dynamic (adapts to any display)
 - **Interactive**: Yes
-- **API**: Uses public stock data endpoints for S&P 500 stocks
+- **API**: Fetches prices for the tickers you choose from Yahoo Finance's public chart endpoint (unofficial; it may change or stop working)
 - **Update Frequency**:
-  - Every 15-30 seconds during market hours
+  - Roughly every 5 seconds during market hours
   - Daily at market open on weekdays
   - No updates on weekends/holidays
 
 ## Data Source
 
-Stock prices are fetched from public financial data APIs. The wallpaper respects market hours to minimize unnecessary data requests during off-market times.
+Stock prices are fetched from Yahoo Finance's public chart endpoint, which is unofficial and may change or stop working. The wallpaper respects market hours to minimize unnecessary data requests during off-market times.
 
 ## Development
 
@@ -88,7 +88,7 @@ Mike
 
 ## License
 
-This wallpaper is provided as-is for personal use.
+This wallpaper is released under the MIT License (see [LICENSE](LICENSE)) and is provided as-is.
 
 ---
 
